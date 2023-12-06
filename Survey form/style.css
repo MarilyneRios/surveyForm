@@ -1,0 +1,156 @@
+body{
+  width:100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+  background-color: rgb(96, 96, 202);
+  font-family: 'Courier New', Courier, monospace;
+}
+/*header*/
+p, h1{
+  margin: 1em auto;
+  text-align: center;
+}
+
+h1{
+  height: 0.5em;
+  font-size: 2.5rem;
+}
+
+.description{
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
+/* la partie principale*/
+fieldset {
+border: none;
+width: 100%;
+padding: 0;
+margin: 0;
+background-color:rgb(22, 22, 49);
+font-size: 1.3rem;
+font-weight: bold;
+}
+/*form_group : 7parties */
+.form_group{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+  width: 100%;
+  max-width: 600px;
+  min-width: 300px;
+  margin: 0 auto;
+}
+
+/*form_group input*/
+.survey-form{
+  width: 60vw;
+  height: 4vh;
+  max-width: 450px;
+  min-width: 300px;
+  margin-top: 0.5rem auto;
+  align-items: center;
+}
+label{
+  font-size: 1.2rem;
+}
+.personal{
+  text-align: left;
+  width: 60%;
+  margin-bottom: 0.4rem;
+
+}
+
+#number{
+  cursor: pointer;
+}
+
+#dropdown{
+  width: 60%;
+}
+
+#dropdown{
+  cursor: pointer;
+}
+/*radio*/
+
+
+#labelRadioOnly{
+  display: flex;
+  flex-direction: column;
+  margin-right: 10vw;
+  margin-top: 1rem;
+}
+
+.labelRadio input[type="radio"] {
+  cursor: pointer;
+  margin: 0.5rem;
+}
+
+.labelRadio input[type="radio"]:hover{
+  transform: scale(1.5);
+}
+/*input-checkbox*/
+
+/* Ajustez l'espace entre la checkbox et le label */
+#improvedContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  width: 60vw;
+}
+
+#onlyInputCheckbox{
+  width: 30vw;
+  margin-left: 15vw;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+}
+.improved input[type="checkbox"] {
+  margin-right: 1rem; 
+  cursor: pointer;
+}
+.improved input[type="checkbox"]:hover{
+  transform: scale(1.5);
+}
+
+.improved{
+  justify-content: flex-start;
+  flex: 1 0 70%; 
+  margin: 0.5rem;
+}
+
+/*are text et btn*/
+#comments {
+ 
+  width: 60vw;
+  height: 10vh;
+  max-width: 450px;
+  min-width: 300px;
+  margin: 0 auto;
+}
+
+.submit_button{
+  width: 60vw;
+  max-width: 450px;
+  min-width: 300px;
+  margin: 2rem auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #1a8b66;
+  border-color: #1a8b66;
+  border-radius: 2px;
+  min-width: 300px;
+  color:white;
+  cursor: pointer;
+}
+
+.submit_button:hover{
+  transform: scale(1.2);
+}
